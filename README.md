@@ -16,6 +16,9 @@ sudo docker exec php-fpm php artisan key:generate<br/>
 sudo docker exec php-fpm php artisan migrate<br/>
 sudo docker exec php-fpm php artisan db:seed<br/>
 
+make node-install<br/>
+make node-watch<br/>
+
 сортировка выглядит следующим образом<br/>
 SELECT *, if(count>0,1,0) as available FROM products order by available desc, {price}<br/>
 <br/>
